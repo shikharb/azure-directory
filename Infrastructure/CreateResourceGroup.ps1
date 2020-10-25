@@ -1,6 +1,10 @@
 # Reference (Azure Connection): https://docs.microsoft.com/en-us/powershell/module/az.accounts/connect-azaccount?view=azps-4.6.1
 # Reference (Create Resource Group): https://docs.microsoft.com/en-us/powershell/module/azurerm.resources/new-azurermresourcegroup?view=azurermps-6.13.0
 
+Write-Host 'Importing Powershell Az Module...'
+Import-Module Az
+
+Write-Host
 Write-Host 'First connect to your Azure account...'
 $Tenant = Read-Host -Prompt 'Azure TenantId '
 $SubscriptionId = Read-Host -Prompt 'Azure SubscriptionId '
