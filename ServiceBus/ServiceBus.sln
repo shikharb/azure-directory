@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QueueMessageSendClient", "QueueMessageSendClient\QueueMessageSendClient.csproj", "{C5760A6F-E8B1-4136-B3A0-1454376CCEAE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C5760A6F-E8B1-4136-B3A0-1454376CCEAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5760A6F-E8B1-4136-B3A0-1454376CCEAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5760A6F-E8B1-4136-B3A0-1454376CCEAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5760A6F-E8B1-4136-B3A0-1454376CCEAE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {51ABEDE0-21C2-4C58-B1FA-C711A419B763}
+	EndGlobalSection
+EndGlobal
