@@ -17,7 +17,7 @@ namespace QueueMessageSendClient
 
         static async Task Main(string[] args)
         {
-            queueClient = new QueueClient(ServiceBusConnectionString, QueueName, ReceiveMode.PeekLock);
+            queueClient = new QueueClient(ServiceBusConnectionString, QueueName);
 
             Console.WriteLine("Sending messages to queue...");
             await SendMessagesAsync(numberOfMessages);
